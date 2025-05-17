@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SnapDrop | Upload Your Image</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Social preview -->
+  <meta property="og:title" content="SnapDrop | Upload an Image" />
+  <meta property="og:description" content="Quickly upload your image and we'll turn it into a stunning visual." />
+  <meta property="og:image" content="https://snapdragonvisuals.com/snapdragon-modern-logo.png" />
+  <meta property="og:url" content="https://snapdrop.ai" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #5e60ce, #7400b8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      color: white;
+      text-align: center;
+    }
+    .container {
+      max-width: 500px;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1rem;
+      margin-bottom: 30px;
+    }
+    input[type="file"] {
+      display: block;
+      margin: 0 auto 20px;
+      color: white;
+    }
+    .submit-button {
+      background: white;
+      color: #5e60ce;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .submit-button:hover {
+      background: #e0dfff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>SnapDrop</h1>
+    <p>Upload your image and we’ll handle the magic.</p>
+    <form action="https://formsubmit.co/nickseoventures@gmail.com" method="POST" enctype="multipart/form-data">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="file" name="attachment" accept="image/*" required>
+      <button type="submit" class="submit-button">Upload Image</button>
+    </form>
+  </div>
+</body>
+</html>
